@@ -7,19 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Margin="0,0,-140,0">
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF156EFE" Offset="1"/>
-                <GradientStop Color="#FFFFE026"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Margin="0,0,-140,0" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="TranslateButton" Content="Translator" HorizontalAlignment="Left" Height="48" Margin="180,381,0,0" VerticalAlignment="Top" Width="148" FontSize="22" FontWeight="Bold" Click="TranslateButton_Click" Background="#33000000" Foreground="Black" BorderBrush="Transparent"/>
-        <TextBox x:Name="InsertBox" HorizontalAlignment="Left" Height="61" Margin="108,250,0,0" TextWrapping="Wrap" Text="Insert The Num" VerticalAlignment="Top" Width="293" FontSize="36" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" GotFocus="InsertBox_GotFocus" LostFocus="InsertBox_LostFocus" KeyDown="InsertBox_KeyDown" SelectionHighlightColor="#33FFFFFF"/>
-        <TextBlock x:Name="ResultBox" HorizontalAlignment="Left" Height="50" Margin="85,485,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="337" TextAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="62" Margin="85,74.107,0,0" TextWrapping="Wrap" Text="Num 2 Korean" VerticalAlignment="Top" Width="336.969" FontSize="48" FontWeight="Bold" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+        <Button x:Name="TranslateButton" Content="Translator" HorizontalAlignment="Left" Height="61" Margin="335,516,0,0" VerticalAlignment="Top" Width="136" FontSize="22" FontWeight="Bold" Click="TranslateButton_Click" Foreground="Black" BorderBrush="Black" Background="#33FFFFFF" BorderThickness="5"/>
+        <TextBox x:Name="InsertBox" HorizontalAlignment="Left" Height="61" Margin="29,516,0,0" TextWrapping="Wrap" Text="Insert The Num" VerticalAlignment="Top" Width="273" FontSize="30" TextAlignment="Center" BorderBrush="Black" Background="{x:Null}" GotFocus="InsertBox_GotFocus" LostFocus="InsertBox_LostFocus" KeyDown="InsertBox_KeyDown" SelectionHighlightColor="#33FFFFFF" Foreground="Black"/>
+        <TextBlock x:Name="ResultBox" HorizontalAlignment="Left" Height="59" Margin="29,304,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="442" TextAlignment="Center" FontSize="42" Foreground="Black"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="62" Margin="85,74.107,0,0" TextWrapping="Wrap" Text="Num 2 Korean" VerticalAlignment="Top" Width="336.969" FontSize="48" FontWeight="Bold" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Foreground="Black"/>
     </Grid>
 </Page>

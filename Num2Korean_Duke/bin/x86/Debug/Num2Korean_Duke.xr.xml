@@ -13,15 +13,6 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
-      <RootProperty Name="EndPoint" />
-      <RootProperty Name="StartPoint" />
-      <RootProperty Name="GradientStops" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
-      <RootProperty Name="Color" />
-      <RootProperty Name="Offset" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -32,9 +23,10 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -50,6 +42,7 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Background" />
       <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="GotFocus" />
       <RootEvent Name="LostFocus" />
       <RootEvent Name="KeyDown" />
@@ -64,6 +57,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
